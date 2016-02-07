@@ -1,0 +1,9 @@
+C:\Users\mgaik\Documents\Visual Studio 2013\Projects\MyMP3\MyMP3\bin\Debug\MyMP3.exe.config
+C:\Users\mgaik\Documents\Visual Studio 2013\Projects\MyMP3\MyMP3\obj\Debug\MyMP3.csprojResolveAssemblyReference.cache
+C:\Users\mgaik\Documents\Visual Studio 2013\Projects\MyMP3\MyMP3\obj\Debug\MyMP3.Form1.resources
+C:\Users\mgaik\Documents\Visual Studio 2013\Projects\MyMP3\MyMP3\obj\Debug\MyMP3.Properties.Resources.resources
+C:\Users\mgaik\Documents\Visual Studio 2013\Projects\MyMP3\MyMP3\obj\Debug\MyMP3.csproj.GenerateResource.Cache
+C:\Users\mgaik\Documents\Visual Studio 2013\Projects\MyMP3\MyMP3\bin\Debug\MyMP3.exe
+C:\Users\mgaik\Documents\Visual Studio 2013\Projects\MyMP3\MyMP3\bin\Debug\MyMP3.pdb
+C:\Users\mgaik\Documents\Visual Studio 2013\Projects\MyMP3\MyMP3\obj\Debug\MyMP3.exe
+C:\Users\mgaik\Documents\Visual Studio 2013\Projects\MyMP3\MyMP3\obj\Debug\MyMP3.pdb
