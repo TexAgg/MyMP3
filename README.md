@@ -1,5 +1,5 @@
 # MyMP3
-A very basic MP3 play I made while trying to learn C#. 
+A very basic MP3 player I made while trying to learn C#. 
 I followed the tutorial [here.](https://www.caveofprogramming.com/c-sharp-tutorial/c-for-beginners-make-your-own-mp3-player-free.html)
 
 # Instructions
