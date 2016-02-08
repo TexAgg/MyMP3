@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MyMP3.exe" size="10208">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MyMP3.exe" size="10720">
       <assemblyIdentity name="MyMP3" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Jw3ckm27xEivgfOevrjTTbWmFCfY+pfdkF9dzLe9lDU=</dsig:DigestValue>
+        <dsig:DigestValue>TVngFsNa37eNd2JsePivFM7pWcwHR+puFMyQFoCHVjI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

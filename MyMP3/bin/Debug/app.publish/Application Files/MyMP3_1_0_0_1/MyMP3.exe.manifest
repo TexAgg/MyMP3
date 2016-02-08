@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="MyMP3.exe" version="1.0.0.1" publicKeyToken="e38a4a785c2cc5e0" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="MyMP3" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="MyMP3.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MyMP3.exe" size="10720">
+      <assemblyIdentity name="MyMP3" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>TVngFsNa37eNd2JsePivFM7pWcwHR+puFMyQFoCHVjI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="MyMP3.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-AGNQFNA\mgaik" issuerKeyHash="33e26628d5375270520ded7c51cdc69f4b2fd5e5" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>pin2riYmCYg5Corrok53QwEoOKM7UvJtj9YEw0NpBzo=</DigestValue></Reference></SignedInfo><SignatureValue>JUTjpRiCuLf0e6mXgXvyZZ37iLjkJemXafk5HnI5BWu3LF+I+M4JzGmnxW4+hieGj9DsUkLPsSioXBandyoW2V6ZP8tk6malebAEHw62FqD/5/Tfl/MT+4UsjOLN/j9jV4iNArOQVyK2GDwc6Z6gwql/WQGK39ODXhWR6XZJrI4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tvKf5KBu+7slQPzrLFFYzQDGEn4fog6fHr+PcWV11b/yV0Zyn8mOOQes+iha8IKft6WjkF7kTeLeV4bjxtWipVkbvscWtuXYte5nOrklilqzF5Nbf0JgTc3Z0VpHamW+POhsShmi3IPlawNFHoatTZC1AEL1pik2EKCrfJg+hm0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="3a076943c304d68f6df2523ba338280143774ea2eb8a0a3988092626aef629a6" Description="" Url=""><as:assemblyIdentity name="MyMP3.exe" version="1.0.0.1" publicKeyToken="e38a4a785c2cc5e0" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-AGNQFNA\mgaik</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>VVB77XczaTQ234Hh4MxLgMxp4aKliQdt6OgLg2AaE9U=</DigestValue></Reference></SignedInfo><SignatureValue>Th6oyLGtYDPLpFqaBXKum8hxE7StnUGaH5Vm6fdiMhaO/QxEXQ9In6+qYoW8uZbiaMjk2/l992M7IoMloTfCAaVNdCA4jp9dzDuYVJ1BQ8920sAY4pN1/CDh53n5EwAu0/7ETFm4v+CMEmAECTcueWcGfXeCLP2BtodD3Tnro/U=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tvKf5KBu+7slQPzrLFFYzQDGEn4fog6fHr+PcWV11b/yV0Zyn8mOOQes+iha8IKft6WjkF7kTeLeV4bjxtWipVkbvscWtuXYte5nOrklilqzF5Nbf0JgTc3Z0VpHamW+POhsShmi3IPlawNFHoatTZC1AEL1pik2EKCrfJg+hm0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQU2aK7iyu+b1F1jutwWCgojANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEEARwBOAFEARgBOAEEAXABtAGcAYQBpAGswHhcNMTYwMjA3MjIxNTQ2WhcNMTcwMjA3MDQxNTQ2WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEEARwBOAFEARgBOAEEAXABtAGcAYQBpAGswgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALbyn+Sgbvu7JUD86yxRWM0AxhJ+H6IOnx6/j3FlddW/8ldGcp/JjjkHrPooWvCCn7elo5Be5E3i3leG48bVoqVZG77HFrbl2LXuZzq5JYpasxeTW39CYE3N2dFaR2plvjzobEoZotyD5WsDRR6GrU2QtQBC9aYpNhCgq3yYPoZtAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAOudKqUS9C7WkBRA3np9MMr4iEHK++BiESyVdNZGrgQDxAdPSlNXMkuSxqciaHuwBnUfKUBiJHs365rI2XpxMZdjUYoyTM98FLd5y7WQu45VGzFIIEZXHOeGSeVJw/TH43lPmkcDPew1+n7hxpsfCz3fA6u8mCBb9LSXFGrod0KU=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

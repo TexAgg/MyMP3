@@ -38,7 +38,7 @@
             // button1
             // 
             this.button1.AccessibleName = "";
-            this.button1.Location = new System.Drawing.Point(0, 0);
+            this.button1.Location = new System.Drawing.Point(12, 0);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
@@ -48,7 +48,7 @@
             // 
             // play
             // 
-            this.play.Location = new System.Drawing.Point(81, 0);
+            this.play.Location = new System.Drawing.Point(103, 0);
             this.play.Name = "play";
             this.play.Size = new System.Drawing.Size(75, 23);
             this.play.TabIndex = 1;
@@ -58,7 +58,7 @@
             // 
             // stop
             // 
-            this.stop.Location = new System.Drawing.Point(162, 0);
+            this.stop.Location = new System.Drawing.Point(195, 0);
             this.stop.Name = "stop";
             this.stop.Size = new System.Drawing.Size(75, 23);
             this.stop.TabIndex = 3;
@@ -74,11 +74,12 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(78, 66);
+            this.label1.Location = new System.Drawing.Point(115, 113);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 17);
+            this.label1.Size = new System.Drawing.Size(41, 17);
             this.label1.TabIndex = 4;
-            this.label1.Text = "label1";
+            this.label1.Text = "Song";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Form1
             // 
@@ -90,7 +91,8 @@
             this.Controls.Add(this.play);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "GaikPod";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
